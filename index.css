@@ -1,0 +1,77 @@
+
+nav>p{
+    font-size: 25px;
+    font-weight: 900;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+nav>p>i{
+    position: absolute;
+    left:140px;
+    top:25px;
+}
+.container>.collapse{
+  margin-left: 350px;
+}
+
+.carousel-item>p{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 0;
+  font-weight: 900;
+  cursor: pointer;
+}
+.carousel-item>.short{
+  font-size: 15px;
+  text-decoration: underline;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+ .p1{
+  padding-top: 50px;
+  padding-left: 20px;
+  font-size: 45px;
+  font-weight: 900;
+  color: #35374B;
+ }
+.dropup>button{
+  margin-left: 85px;
+}
+
+.class-header>img{
+  height:345px
+}
+.r2{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.p3{
+  font-size: 45px;
+  font-weight: 900;
+  padding-top: 50px;
+  padding-left: 20px;
+  color: #35374B;
+}
+.card:hover{
+  transform: scale(1.05,1.05);
+  box-shadow: 5px 5px 8px rgba(191,191,191,0.8);
+  transition-duration: 0.8s;
+  cursor: pointer;
+}
+@media only screen and (max-width:720px){
+   .container>.collapse{
+   margin-left: 0;
+   } 
+   .carousel-slide{
+    height: 115px;
+   }
+   .ci1{
+    margin-top: 30px;
+   }
+   .card:hover{
+    z-index:1;
+   }
+}
